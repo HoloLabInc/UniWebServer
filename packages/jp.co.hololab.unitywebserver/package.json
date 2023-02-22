@@ -6,5 +6,17 @@
   "unity": "2019.4",
   "author": {
     "name": "HoloLab Inc."
-  }
+  },
+  "samples": [
+    {
+      "displayName": "StaticPageSample",
+      "description": "Static Page Samle",
+      "path": "Samples~/StaticPageSample"
+    },
+    {
+      "displayName": "DynamicPageSample",
+      "description": "Dynamic Page Samle",
+      "path": "Samples~/DynamicPageSample"
+    }
+  ]
 }
