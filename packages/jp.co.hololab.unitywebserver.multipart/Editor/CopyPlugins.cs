@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
-using UnityEditor.Build;
 using UnityEngine;
 
 namespace HoloLab.UnityWebServer.Multipart.Editor
@@ -48,7 +47,6 @@ namespace HoloLab.UnityWebServer.Multipart.Editor
             {
                 if (ExistsPluginsFolder())
                 {
-                    Debug.Log("exist plugin folder");
                     return;
                 }
 
