@@ -7,18 +7,17 @@ using UnityEditor;
 using UnityEditor.Build;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer.Editor
+namespace HoloLab.UnityWebServer.Multipart.Editor
 {
     [InitializeOnLoad]
-    internal sealed class CopyPlugins : IActiveBuildTargetChanged
+    internal sealed class CopyPlugins
     {
-        private static readonly string SentinelFileName = "UnityWebServer.Plugins.sentinel";
+        private static readonly string SentinelFileName = "UnityWebServer.Multipart.Plugins.sentinel";
         private static readonly string SentinelFileGuid = "60b11da8abf40f64cbe833e0e53f25cf";
-        private static readonly string ImportTargetFolder = "Assets/UnityWebServer/Plugins";
+        private static readonly string ImportTargetFolder = "Assets/UnityWebServer.Multipart/Plugins";
 
-        private static readonly string SessionKey = "_UnityWebServer_CopyPlugins";
+        private static readonly string SessionKey = "_UnityWebServerMultipart_CopyPlugins";
 
-        private const string SymbolCommonPluginsExist = "UNITYWEBSERVER_PLUGINS_EXIST";
         private static readonly object addSymbolLock = new object();
 
         // Returns true only the first time after the Unity Editor started
@@ -49,6 +48,7 @@ namespace HoloLab.UnityWebServer.Editor
             {
                 if (ExistsPluginsFolder())
                 {
+                    Debug.Log("exist plugin folder");
                     return;
                 }
 
@@ -97,8 +97,6 @@ namespace HoloLab.UnityWebServer.Editor
             var srcFolder = pluginsFolder.FullName;
             var targetFolder = Path.GetFullPath(ImportTargetFolder);
             DirectoryCopy(srcFolder, targetFolder, true);
-
-            AddCommonPluginsSymbol(EditorUserBuildSettings.activeBuildTarget);
         }
 
         /// <summary>
@@ -142,30 +140,6 @@ namespace HoloLab.UnityWebServer.Editor
                     string tempPath = Path.Combine(destDirName, subdir.Name);
                     DirectoryCopy(subdir.FullName, tempPath, copySubDirs);
                 }
-            }
-        }
-
-        private static void AddCommonPluginsSymbol(BuildTarget buildTarget)
-        {
-            lock (addSymbolLock)
-            {
-                var group = BuildPipeline.GetBuildTargetGroup(buildTarget);
-                var symbols = PlayerSettings.GetScriptingDefineSymbolsForGroup(group).Split(';').ToList();
-                if (symbols.Contains(SymbolCommonPluginsExist))
-                {
-                    return;
-                }
-                symbols.Add(SymbolCommonPluginsExist);
-                PlayerSettings.SetScriptingDefineSymbolsForGroup(group, string.Join(";", symbols));
-                AssetDatabase.SaveAssets();
-            }
-        }
-
-        public void OnActiveBuildTargetChanged(BuildTarget previousTarget, BuildTarget newTarget)
-        {
-            if (ExistsPluginsFolder())
-            {
-                AddCommonPluginsSymbol(newTarget);
             }
         }
     }
