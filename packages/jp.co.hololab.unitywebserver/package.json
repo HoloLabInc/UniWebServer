@@ -10,12 +10,12 @@
   "samples": [
     {
       "displayName": "StaticPageSample",
-      "description": "Static Page Samle",
+      "description": "Static Page Sample",
       "path": "Samples~/StaticPageSample"
     },
     {
       "displayName": "DynamicPageSample",
-      "description": "Dynamic Page Samle",
+      "description": "Dynamic Page Sample",
       "path": "Samples~/DynamicPageSample"
     }
   ]

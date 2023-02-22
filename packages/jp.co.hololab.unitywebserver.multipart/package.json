@@ -6,5 +6,12 @@
   "unity": "2019.4",
   "author": {
     "name": "HoloLab Inc."
-  }
+  },
+  "samples": [
+    {
+      "displayName": "FileUploadSample",
+      "description": "File Upload Sample",
+      "path": "Samples~/FileUploadSample"
+    }
+  ]
 }
