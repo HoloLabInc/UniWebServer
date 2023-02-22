@@ -1,5 +1,5 @@
 ﻿#if UNITY_EDITOR
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("HoloLab.UnityWebServer.Tests")]
+[assembly: InternalsVisibleTo("UnityWebServer.Tests")]
 #endif
