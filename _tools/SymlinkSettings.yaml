@@ -1,0 +1,10 @@
+symlinks:
+  # Multipart plugins
+  - src: ..\packages\jp.co.hololab.unitywebserver.multipart\Plugins~
+    dest: ..\unity\UnityWebServer\Assets\UnityWebServer.Multipart.Plugins
+
+  # Sample folder
+  - src: ..\packages\jp.co.hololab.unitywebserver\Samples~
+    dest: ..\unity\UnityWebServer\Assets\UnityWebServer.Samples
+  - src: ..\packages\jp.co.hololab.unitywebserver.multipart\Samples~
+    dest: ..\unity\UnityWebServer\Assets\UnityWebServer.Multipart.Samples
