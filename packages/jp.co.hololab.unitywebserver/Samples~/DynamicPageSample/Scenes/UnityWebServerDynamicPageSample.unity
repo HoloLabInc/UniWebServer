@@ -469,7 +469,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Usabe
+  m_Text: 'Usage
 
 
     Play the scene and access http://<ip address>:8080 using your
