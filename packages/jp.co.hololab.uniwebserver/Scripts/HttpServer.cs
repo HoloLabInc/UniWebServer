@@ -5,7 +5,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     public class HttpServer
     {

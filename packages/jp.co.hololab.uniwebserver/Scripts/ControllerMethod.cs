@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     internal class ControllerMethod
     {

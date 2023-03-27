@@ -10,7 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     public class Router
     {

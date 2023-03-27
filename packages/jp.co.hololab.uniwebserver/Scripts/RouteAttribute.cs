@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class RouteAttribute : Attribute

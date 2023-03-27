@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     internal static class RouterHelper
     {

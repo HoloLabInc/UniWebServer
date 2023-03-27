@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Reflection;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     [Serializable]
     public class StaticRouteSetting

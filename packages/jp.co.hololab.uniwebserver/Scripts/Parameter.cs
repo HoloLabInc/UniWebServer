@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     internal enum ParameterType
     {

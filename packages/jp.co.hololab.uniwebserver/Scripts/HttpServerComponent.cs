@@ -5,7 +5,7 @@ using System.Net;
 using System.Threading;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer
+namespace HoloLab.UniWebServer
 {
     public class HttpServerComponent : MonoBehaviour
     {

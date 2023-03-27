@@ -1,4 +1,4 @@
-﻿namespace HoloLab.UnityWebServer
+﻿namespace HoloLab.UniWebServer
 {
     public interface IHttpController
     {
