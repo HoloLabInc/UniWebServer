@@ -1,0 +1,17 @@
+{
+  "name": "jp.co.hololab.uniwebserver.multipart",
+  "version": "0.1.0",
+  "displayName": "Uni Web Server Multipart",
+  "description": "Multipart parser library",
+  "unity": "2019.4",
+  "author": {
+    "name": "HoloLab Inc."
+  },
+  "samples": [
+    {
+      "displayName": "FileUploadSample",
+      "description": "File Upload Sample",
+      "path": "Samples~/FileUploadSample"
+    }
+  ]
+}
