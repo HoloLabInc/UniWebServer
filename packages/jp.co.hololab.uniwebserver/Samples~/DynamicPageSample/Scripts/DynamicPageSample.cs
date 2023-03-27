@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer.Samples
+namespace HoloLab.UniWebServer.Samples
 {
     public class DynamicPageSample : MonoBehaviour, IHttpController
     {

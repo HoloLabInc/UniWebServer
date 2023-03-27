@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------------
-Unity Web Server
-https://github.com/HoloLabInc/UnityWebServer
+Uni Web Server
+https://github.com/HoloLabInc/UniWebServer
 -------------------------------------------------------------------------------------
 
 MIT License
