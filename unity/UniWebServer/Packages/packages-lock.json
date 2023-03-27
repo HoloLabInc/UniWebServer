@@ -80,20 +80,20 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "jp.co.hololab.unitywebserver": {
-      "version": "file:../../../packages/jp.co.hololab.unitywebserver",
+    "jp.co.hololab.uniwebserver": {
+      "version": "file:../../../packages/jp.co.hololab.uniwebserver",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
-    "jp.co.hololab.unitywebserver.multipart": {
-      "version": "file:../../../packages/jp.co.hololab.unitywebserver.multipart",
+    "jp.co.hololab.uniwebserver.multipart": {
+      "version": "file:../../../packages/jp.co.hololab.uniwebserver.multipart",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
-    "jp.co.hololab.unitywebserver.tests": {
-      "version": "file:../../../packages/jp.co.hololab.unitywebserver.tests",
+    "jp.co.hololab.uniwebserver.tests": {
+      "version": "file:../../../packages/jp.co.hololab.uniwebserver.tests",
       "depth": 0,
       "source": "local",
       "dependencies": {}
