@@ -6,16 +6,16 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer.Multipart.Editor
+namespace HoloLab.UniWebServer.Multipart.Editor
 {
     [InitializeOnLoad]
     internal sealed class CopyPlugins
     {
-        private static readonly string SentinelFileName = "UnityWebServer.Multipart.Plugins.sentinel";
+        private static readonly string SentinelFileName = "UniWebServer.Multipart.Plugins.sentinel";
         private static readonly string SentinelFileGuid = "60b11da8abf40f64cbe833e0e53f25cf";
-        private static readonly string ImportTargetFolder = "Assets/UnityWebServer.Multipart/Plugins";
+        private static readonly string ImportTargetFolder = "Assets/UniWebServer.Multipart/Plugins";
 
-        private static readonly string SessionKey = "_UnityWebServerMultipart_CopyPlugins";
+        private static readonly string SessionKey = "_UniWebServerMultipart_CopyPlugins";
 
         private static readonly object addSymbolLock = new object();
 

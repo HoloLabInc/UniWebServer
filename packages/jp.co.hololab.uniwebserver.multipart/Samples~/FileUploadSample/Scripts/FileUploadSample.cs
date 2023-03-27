@@ -6,7 +6,7 @@ using System.Net;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace HoloLab.UnityWebServer.Multipart.Samples
+namespace HoloLab.UniWebServer.Multipart.Samples
 {
     public class FileUploadSample : MonoBehaviour, IHttpController
     {
