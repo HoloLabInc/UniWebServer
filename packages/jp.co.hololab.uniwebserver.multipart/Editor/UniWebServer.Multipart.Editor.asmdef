@@ -1,5 +1,5 @@
 {
-    "name": "UnityWebServer.Multipart.Editor",
+    "name": "UniWebServer.Multipart.Editor",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [
