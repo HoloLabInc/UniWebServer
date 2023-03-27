@@ -1,10 +1,10 @@
 symlinks:
   # Multipart plugins
-  - src: ..\packages\jp.co.hololab.unitywebserver.multipart\Plugins~
-    dest: ..\unity\UnityWebServer\Assets\UnityWebServer.Multipart.Plugins
+  - src: ..\packages\jp.co.hololab.uniwebserver.multipart\Plugins~
+    dest: ..\unity\UniWebServer\Assets\UniWebServer.Multipart.Plugins
 
   # Sample folder
-  - src: ..\packages\jp.co.hololab.unitywebserver\Samples~
-    dest: ..\unity\UnityWebServer\Assets\UnityWebServer.Samples
-  - src: ..\packages\jp.co.hololab.unitywebserver.multipart\Samples~
-    dest: ..\unity\UnityWebServer\Assets\UnityWebServer.Multipart.Samples
+  - src: ..\packages\jp.co.hololab.uniwebserver\Samples~
+    dest: ..\unity\UniWebServer\Assets\UniWebServer.Samples
+  - src: ..\packages\jp.co.hololab.uniwebserver.multipart\Samples~
+    dest: ..\unity\UniWebServer\Assets\UniWebServer.Multipart.Samples
