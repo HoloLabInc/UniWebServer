@@ -1,6 +1,6 @@
 {
   "name": "jp.co.hololab.uniwebserver",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "Uni Web Server",
   "description": "Simple web framework that runs on Unity applications",
   "unity": "2019.4",
